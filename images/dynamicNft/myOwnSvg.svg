@@ -1,0 +1,26 @@
+<svg viewBox="-7.313 -7.313 500 500" style="filter: url(#inner-shadow-filter-0);" xmlns="http://www.w3.org/2000/svg"
+    xmlns:bx="https://boxy-svg.com">
+    <desc>A simple NFT svg</desc>
+    <title>NFT SVG</title>
+    <defs>
+        <filter id="inner-shadow-filter-0" color-interpolation-filters="sRGB" x="-50%" y="-50%" width="200%"
+            height="200%" bx:preset="inner-shadow 1 0 0 33 0.25 rgba(0,0,0,0.7)">
+            <feOffset dx="0" dy="0"></feOffset>
+            <feGaussianBlur stdDeviation="33"></feGaussianBlur>
+            <feComposite operator="out" in="SourceGraphic"></feComposite>
+            <feComponentTransfer result="choke">
+                <feFuncA type="linear" slope="0.5"></feFuncA>
+            </feComponentTransfer>
+            <feFlood flood-color="rgba(0,0,0,0.7)" result="color"></feFlood>
+            <feComposite operator="in" in="color" in2="choke" result="shadow"></feComposite>
+            <feComposite operator="over" in="shadow" in2="SourceGraphic"></feComposite>
+        </filter>
+    </defs>
+    <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="236.746" cy="166.819" rx="63.985" ry="72.669">
+    </ellipse>
+    <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" x="226.691"
+        y="133.455">svg<tspan x="226.6909942626953" dy="1em">​</tspan>test</text>
+    <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"
+        d="M 118.83 233.089 C 126.616 227.899 110.769 144.176 116.088 136.197 C 116.848 135.057 121.982 129.295 122.486 129.799 C 135.191 142.503 128.297 164.01 132.541 180.987 C 134.831 190.146 137.561 199.238 139.854 208.41 C 142.908 220.625 88.814 249.997 98.72 255.941 C 108.682 261.919 185.853 252.433 196.527 257.77 C 220.875 269.944 256.605 268.423 282.45 263.254 C 300.774 259.589 323.816 243.082 335.466 228.519 C 345.429 216.066 348.694 202.709 351.92 187.386 C 354.596 174.673 357.633 162.024 355.576 148.995 C 352.139 127.228 336.819 109.214 321.755 94.15 C 284.093 56.488 233.209 34.542 180.987 26.508 C 160.065 23.289 134.486 21.496 114.26 30.165 C 105.747 33.813 99.528 39.089 94.15 46.618 C 90.13 52.246 86.28 57.788 83.181 63.985 C 77.011 76.325 80.346 96.846 93.236 103.291 C 96.319 104.832 98.843 110.603 102.377 110.603 C 104.469 110.603 116.641 111.157 117.916 112.431 C 117.931 112.447 127.057 134.369 127.057 134.369">
+    </path>
+</svg>
